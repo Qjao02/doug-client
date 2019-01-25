@@ -1,0 +1,48 @@
+@import "~src/styles";
+
+body{
+  background-color: grey !important;
+}
+
+.card{
+  width: 40%;
+  align-content: center;
+  margin: 0 auto;
+  margin-top: 5%;
+  background: rgba(246,246,246,1);
+  padding: 8px;
+  box-shadow:5px 5px 5px #e4e3e6;
+
+}
+
+.card-title{
+  text-align: center;
+}
+
+.card-body{
+
+}
+
+.btn-primary{
+  background: map_get($brand-colors, primary);
+  border-color: map_get($brand-colors, primary);
+  position: relative;
+  transform: translate3d(60%,18%,0);
+}
+
+.btn-primary:hover{
+  background: darksalmon;
+  border-color: darksalmon;
+  animation-duration: 2s;
+  position: relative;
+}
+
+fa{
+  color: map_get($brand-colors, secondary);
+  transform: translateX(3%);
+}
+
+
+aler{
+  text-align: center;
+}
